@@ -28,6 +28,9 @@
       case "contact-content-group-content contact-content-group-content-email":
         form.style.transform = "none";
         break;
+      case "contact-content-group-content contact-content-group-content-linkedin":
+        window.location = "https://www.linkedin.com/in/gizem-ocak-2aa046a9/";
+        break;
     }
   });
   formControl.addEventListener("click", function(e) {
