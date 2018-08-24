@@ -220,6 +220,10 @@ main {
   background-image: url(./images/trivia.svg);
 }
 
+.github-project {
+  background-image: url(./images/blog.svg);
+}
+
 .projects-project > h2 {
   font-size: 1.6rem;
   text-align: center;
