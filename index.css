@@ -471,6 +471,7 @@ footer p {
     max-width: 900px;
   }
   .projects-content-wrapper {
+    background-color: #fbfbfb;
     display: flex;
     flex-wrap: wrap;
     width: 600px;
