@@ -224,6 +224,10 @@ main {
   background-image: url(./images/blog.svg);
 }
 
+.resume-project {
+  background-image: url(./images/laptop.jpg);
+}
+
 .projects-project > h2 {
   font-size: 1.6rem;
   text-align: center;
