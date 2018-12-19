@@ -1,169 +1,185 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Gizem Ocak</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" type="text/css" href="./index.css">
-</head>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
 
-<body>
+  <body>
     <main>
-        <nav class='fixed-nav'>
+      <nav class="fixed-nav"></nav>
+      <section id="hero">
+        <div class="hero-card">
+          <nav class="top-nav">
+            <ul>
+              <li><a href="#info">About</a></li>
+              <li><a href="#skills">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="hero-essential">
+            <h1>Gizem Ocak</h1>
+            <h2>Welcome to my website!</h2>
+            <p><a a href="#info">Learn More</a></p>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-content" id="info">
+          <h2>About Me</h2>
+          <div class="about-text">
+            <p>
+              I'm a self-taught web developer living in
+              <strong>Toronto, Canada.</strong> I have mostly worked with
+              <strong>Vanilla Javascript</strong>, <strong>React</strong>,
+              <strong>Vue.js</strong>, <strong>HTML5</strong>,
+              <strong>CSS</strong> and <strong>jQuery</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="skills-content">
+          <h2>What I work with</h2>
+          <div class="skills-icons">
+            <i class="devicon-html5-plain-wordmark"></i>
+            <i class="devicon-css3-plain-wordmark"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-jquery-plain-wordmark"></i>
+            <i class="devicon-react-original-wordmark"></i>
+            <i class="devicon-vuejs-plain"></i>
+            <i class="devicon-git-plain"></i>
+            <i class="devicon-sass-original"></i>
+            <i class="text">...And more to come!</i>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects-content">
+          <div class="projects-content-wrapper">
+            <div class="projects-project">
+              <figure class="resume-project"></figure>
+              <h2>Trivia App (Vue.js/Vuex)</h2>
+              <p>
+                A trivia app that uses Vue.js and Vuex for state management.
+              </p>
+              <p>
+                <a href="./projects/src/Trivia-Vue/index.html">View</a>
+                <a href="https://github.com/gizemocak/Trivia-App-Vue.js"
+                  >Github</a
+                >
+              </p>
+            </div>
+            <div class="projects-project">
+              <figure class="trivia-project"></figure>
+              <h2>Trivia App</h2>
+              <p>
+                A simple trivia app that generates questions depending on the
+                user's input. Uses the Trivia API.
+              </p>
+              <p>
+                <a href="./projects/src/Trivia/index.html">View</a>
+                <a href="https://github.com/gizemocak/Trivia-App">Github</a>
+              </p>
+            </div>
 
-        </nav>
-        <section id='hero'>
-            <div class='hero-card'>
-                <nav class='top-nav'>
-                    <ul>
-                        <li>
-                            <a href='#info'>About</a>
-                        </li>
-                        <li>
-                            <a href='#skills'>Work</a>
-                        </li>
-                        <li>
-                            <a href='#contact'>Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class='hero-essential'>
-                    <h1>Gizem Ocak</h1>
-                    <h2>Welcome to my website!</h2>
-                    <p>
-                        <a a href='#info'>Learn More</a>
-                    </p>
-                </div>
+            <div class="projects-project">
+              <figure class="github-project"></figure>
+              <h2>Github finder</h2>
+              <p>
+                An app that display a Github info profile after you input the
+                Github username. Uses the Github API
+              </p>
+              <p>
+                <a href="./projects/src/Github/index.html">View</a>
+                <a href="https://github.com/gizemocak/Github-Finder">Github</a>
+              </p>
             </div>
-        </section>
-        <section id='about'>
-            <div class='about-content' id='info'>
-                <h2>About Me</h2>
-                <div class='about-text'>
-                    <p>I'm a self-taught web developer living in
-                        <strong>Toronto, Canada.</strong> I have mostly worked with
-                        <strong>Vanilla Javascript</strong>,
-                        <strong>React</strong>,
-                        <strong>HTML5</strong>,
-                        <strong>CSS</strong> and
-                        <strong>jQuery</strong>.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id='skills'>
-            <div class='skills-content'>
-                <h2>What I work with</h2>
-                <div class='skills-icons'>
-                    <i class="devicon-html5-plain-wordmark"></i>
-                    <i class="devicon-css3-plain-wordmark"></i>
-                    <i class="devicon-javascript-plain"></i>
-                    <i class="devicon-jquery-plain-wordmark"></i>
-                    <i class="devicon-react-original-wordmark"></i>
-                    <i class='text'>...And more to come!</i>
-                </div>
-            </div>
-        </section>
-        <section id='projects'>
-            <div class='projects-content'>
-                <div class='projects-content-wrapper'>
-                    <div class='projects-project'>
-                        <figure class='website-project'>
-                        </figure>
-                        <h2>Portfolio Website</h2>
-                        <p>The website you're on right now! Built using pure javascipt without any frameworks.</p>
-                        <p>
-                            <a href='https://github.com/gizemocak/gizemocak.github.io'>Github</a>
-                        </p>
-                    </div>
-                    <div class="projects-project">
-                        <figure class="resume-project">
-                        </figure>
-                        <h2>Revents App</h2>
-                        <p>An app that I have created from scratch using React, Redux, React Router, Semantic UI and Google
-                            Maps API.</p>
-                        <p>
-                            <a href="http://revents-app.s3-website.us-east-2.amazonaws.com">View</a>
-                            <a href="https://github.com/gizemocak/revents">Github</a>
-                        </p>
-                    </div>
-                    <div class='projects-project'>
-                        <figure class='trivia-project'>
-                        </figure>
-                        <h2>Trivia App</h2>
-                        <p>A simple Trivia App that generates questions depending on the user's input. Uses the Trivia API.</p>
-                        <p>
-                            <a href='./projects/src/Trivia/index.html'>View</a>
-                            <a href='https://github.com/gizemocak/Trivia-App'>Github</a>
-                        </p>
-                    </div>
 
-                    <div class='projects-project'>
-                        <figure class='github-project'>
-                        </figure>
-                        <h2>Github finder</h2>
-                        <p>An app that display a Github info profile after you input the Github username. Uses the Github API
-                        </p>
-                        <p>
-                            <a href='./projects/src/Github/index.html'>View</a>
-                            <a href='https://github.com/gizemocak/Github-Finder'>Github</a>
-                        </p>
-                    </div>
-                </div>
+            <div class="projects-project">
+              <figure class="website-project"></figure>
+              <h2>Portfolio Website</h2>
+              <p>
+                The website you're on right now! Built using pure javascipt
+                without any frameworks.
+              </p>
+              <p>
+                <a href="https://github.com/gizemocak/gizemocak.github.io"
+                  >Github</a
+                >
+              </p>
             </div>
-        </section>
-        <section id='contact'>
-            <div class='contact-content'>
-                <h2>Contact Me</h2>
-                <p>Hopefully, this website has made enough impression to get you to contact me.
-                    <strong>Please</strong> contact me through any of the methods listed below.
-                    <strong>Thank you</strong>!</p>
-                <div class='contact-content-group'>
-                    <div class='contact-content-group-content contact-content-group-content-email'>
-                        <div class='icon-wrapper'>
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        </div>
-                        <h3>E-mail</h3>
-                        <p>gizem_ocak@outlook.com</p>
-                    </div>
-                    <div class='contact-content-group-content contact-content-group-content-linkedin'>
-                        <div class='icon-wrapper'>
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        </div>
-                        <h3>Linkedin</h3>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-content">
+          <h2>Contact Me</h2>
+          <p>
+            Hopefully, this website has made enough impression to get you to
+            contact me. <strong>Please</strong> contact me through any of the
+            methods listed below. <strong>Thank you</strong>!
+          </p>
+          <div class="contact-content-group">
+            <div
+              class="contact-content-group-content contact-content-group-content-email"
+            >
+              <div class="icon-wrapper">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </div>
+              <h3>E-mail</h3>
+              <p>gizem_ocak@outlook.com</p>
             </div>
-            <div id='inline-contact'>
-                <div class='contact-form'>
-                    <h2>Send me a message</h2>
-                    <form action="https://formspree.io/gizem_ocak@outlook.com" method="POST">
-                        <span>Name</span>
-                        <input type="text" name="name">
-                        <span>E-mail</span>
-                        <input type="email" name="_replyto">
-                        <span>Message</span>
-                        <textarea name="message"></textarea>
-                        <div class='form-control'>
-                            <span class='form-control-return'>Return</span>
-                            <input type="submit" value="Send">
-                        </div>
-                    </form>
-                </div>
+            <div
+              class="contact-content-group-content contact-content-group-content-linkedin"
+            >
+              <div class="icon-wrapper">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </div>
+              <h3>Linkedin</h3>
             </div>
-        </section>
-        <footer>
-            <p>Website created by Gizem Ocak</p>
-        </footer>
+          </div>
+        </div>
+        <div id="inline-contact">
+          <div class="contact-form">
+            <h2>Send me a message</h2>
+            <form
+              action="https://formspree.io/gizem_ocak@outlook.com"
+              method="POST"
+            >
+              <span>Name</span> <input type="text" name="name" />
+              <span>E-mail</span> <input type="email" name="_replyto" />
+              <span>Message</span> <textarea name="message"></textarea>
+              <div class="form-control">
+                <span class="form-control-return">Return</span>
+                <input type="submit" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer><p>Website created by Gizem Ocak</p></footer>
     </main>
     <script type="text/javascript" src="./index.js"></script>
-</body>
-
+  </body>
 </html>
