@@ -213,19 +213,27 @@ main {
 }
 
 .website-project {
-  background-image: url(./images/gui.svg);
+  background-image: url(./images/bag.png);
 }
 
 .trivia-project {
-  background-image: url(./images/trivia.svg);
+  background-image: url(./images/question.png);
 }
 
 .github-project {
-  background-image: url(./images/blog.svg);
+  background-image: url(./images/search.png);
 }
 
 .resume-project {
-  background-image: url(./images/laptop.jpg);
+  background-image: url(./images/sun-cloud.png);
+}
+
+.waste-project {
+  background-image: url(./images/screen.png);
+}
+
+.trivia-vue-project {
+  background-image: url(./images/game.png);
 }
 
 .projects-project > h2 {
