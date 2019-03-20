@@ -3,10 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  font-family: "Raleway", sans-serif;
 }
-body {
-  font-family: "Roboto", sans-serif;
-}
+
 main {
   display: flex;
   flex-direction: column;
@@ -290,6 +289,14 @@ main {
   font-size: 1.6rem;
   text-align: center;
   padding: 0 16px;
+  color: #5839f6;
+}
+
+.projects-project > h2:hover {
+  font-weight: bolder;
+  color: #7d64fe;
+  transition: 0.25s;
+  cursor: pointer;
 }
 
 .projects-project p {
